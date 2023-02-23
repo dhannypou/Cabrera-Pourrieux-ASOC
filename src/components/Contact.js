@@ -14,8 +14,7 @@ const Contact = () => {
         Contáctenos
         </h2>
         <p className='max-w-[540px] mx-auto px-6 lg:px-0 mb-[64px]'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh
-          tristique ipsum.
+        Póngase en contacto con nosotros para programar una consulta. Nuestro equipo está listo para ayudarlo con sus necesidades legales.
         </p>
 
         {/* form */}
