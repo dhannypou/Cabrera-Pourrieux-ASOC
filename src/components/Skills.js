@@ -11,7 +11,7 @@ const Skills = () => {
         Actividades
         </h2>
         <p className='max-w-[540px] mx-auto px-6 lg:px-0 mb-[60px]'>
-        Nuestro equipo de abogados proporciona servicios de asesoramiento, representación en litigios, contratos, propiedad intelectual, inmigración y derecho laboral.
+        En nuestro equipo de abogados, ofrecemos servicios de asesoramiento y representación en una amplia gama de casos legales, incluyendo: casos de alimentos, divorcios, sucesiones, accidentes de tránsito, despidos, casos de ART, contratos, pagares, asuntos penales y todo tipo de cuestiones legales. Nuestro objetivo es proporcionar una atención legal integral y personalizada a cada uno de nuestros clientes, ayudándolos a resolver sus problemas de manera eficaz y eficiente.
         </p>
         <div className='lg:grid lg:grid-cols-3 gap-12'>
           {skills.map((item, index) => {
