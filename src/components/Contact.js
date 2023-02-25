@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import social
-import { social } from '../data';
+/* import { social } from '../data'; */
 
 const Contact = () => {
   return (
@@ -33,13 +33,19 @@ const Contact = () => {
 
         {/* social */}
         <div className='flex items-center justify-between mx-auto max-w-[205px]'>
-          {social.map((item, index) => {
+        <a href="https://www.instagram.com/estudiojuridicocyp.tuc/"
+						target="_blank" ><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"
+						target="_blank" ><ion-icon name="mail-outline"></ion-icon></a>
+            <a href="#"
+						target="_blank" ><ion-icon name="logo-youtube"></ion-icon></a>
+          {/* {social.map((item, index) => {
             return (
               <a href='#' key={index}>
                 <img src={item.icon}></img>
               </a>
             );
-          })}
+          })} */}
         </div>
       </div>
     </section>

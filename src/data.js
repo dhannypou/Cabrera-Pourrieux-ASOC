@@ -10,6 +10,8 @@ import Skill3 from '../src/assets/img/skills/skill3.png';
 import Skill4 from '../src/assets/img/skills/skill4.png';
 import Skill5 from '../src/assets/img/skills/skill5.png';
 import Skill6 from '../src/assets/img/skills/skill6.png';
+import skill7 from '../src/assets/img/skills/skill7.png';
+import skill8 from '../src/assets/img/skills/skill8.png';
 
 // import team images
 import TeamMember1 from '../src/assets/img/lawyer1.png';
@@ -17,11 +19,11 @@ import TeamMember2 from '../src/assets/img/lawyer2.png';
 import TeamMember3 from '../src/assets/img/lawyer3.png';
 
 // import social icons
-import FacebookIcon from '../src/assets/img/social/facebook.png';
+/* import FacebookIcon from '../src/assets/img/social/facebook.png';
 import TwitterIcon from '../src/assets/img/social/twitter.png';
 import InstagramIcon from '../src/assets/img/social/instagram.png';
 import YoutubeIcon from '../src/assets/img/social/youtube.png';
-import PinterestIcon from '../src/assets/img/social/pinterest.png';
+import PinterestIcon from '../src/assets/img/social/pinterest.png'; */
 
 // navigation data
 export const navigation = [
@@ -77,13 +79,13 @@ export const skills = [
     icon: Skill1,
     title: 'Familia',
     description:
-      'Brindamos asesoramiento y representación en casos de divorcio, separacion de bienes, regimen comunicacional, alimentos y adopciones',
+      'Brindamos asesoramiento y representación en casos de divorcio, separacion de bienes, regimen comunicacional, alimentos y adopciones, sucesiones.',
   },
   {
     icon: Skill2,
     title: 'Trabajo',
     description:
-      'Brindamos asesoramiento y representación en casos de derecho laboral, discriminación, acoso laboral, despidos y indemnizaciones.',
+      'Brindamos asesoramiento y representación en casos de derecho laboral, discriminación, acoso laboral, despidos y indemnizaciones, ART, Daño emergente, Lucro cesante.',
   },
   {
     icon: Skill3,
@@ -93,21 +95,33 @@ export const skills = [
   },
   {
     icon: Skill4,
-    title: 'Fiscalidad',
+    title: 'Accidentes de Tránsito',
     description:
-      'Brindamos asesoramiento y representación en casos de fiscalidad, impuestos, planificación patrimonial y cumplimiento normativo.',
+      'Brindamos asesoramiento y representación en casos de siniestros, daños, robos de vehiculos, intimación a seguros.',
   },
   {
     icon: Skill5,
-    title: 'Corporativo',
+    title: 'Problemas Penales',
     description:
-      'Brindamos servicios legales corporativos, incluyendo fusiones y adquisiciones, financiamiento, cumplimiento normativo y litigios.',
+      'Violencia doméstica, delitos y lesiones, calumnias e injurias, Delitos sexuales, Delitos de acoso y amenazas.',
   },
   {
     icon: Skill6,
-    title: 'Bancario',
+    title: 'Previsional',
     description:
-      'Brindamos asesoramiento y representación en casos de derecho bancario y financiero, incluyendo préstamos, garantías, ejecuciones y litigios.',
+      'Brindamos asesoramiento y acompañamiento con problemas de ANSES, jubilaciones, pensiones, trámites por discapacidad.',
+  },
+  {
+    icon: skill8,
+    title: 'Daños y Perjuicios',
+    description:
+      'Brindamos asesoramiento y acompañamiento en defensa al consumidor, Indemnización por daños y perjuicios, Incumplimiento de contrato, Daños a la propiedad, Daños morales, Daños por fraude o estafa, Daños por difamación o injuria,  .',
+  },
+  {
+    icon: skill7,
+    title: 'Gestoría del automotor',
+    description:
+      'Brindamos asesoramiento y acompañamiento con problemas de cambio de titularidad, Transferencias de vehículos, compraventa de automotores, Cambio de radicación de vehículos, Informe de dominio, Denuncia de venta de vehículos, Baja de vehículos.',
   },
 ];
 
@@ -115,15 +129,17 @@ export const skills = [
 export const team = [
   {
     image: TeamMember1,
-    name: 'Veronica Pourrieux',
-    position: 'Abogada y Escribana',
+    name: 'Dra. Veronica Pourrieux',
+    position: 'Abogada, Procuradora, Escribana,',
+    position1:'Gestor del Automotor'
     /* description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.', */
+      'Abogada, Procuradora y Escribana.', */
   },
   {
     image: TeamMember3,
-    name: 'Hugo Cabrera',
-    position: 'Abogado y Escribano',
+    name: 'Dr. W. Hugo Cabrera',
+    position: 'Abogado, Procurador, Escribano,',
+    position1:'Gestor del Automotor'
    /*  description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.', */
   },
@@ -137,13 +153,13 @@ export const team = [
 ];
 
 // social data
-export const social = [
+/* export const social = [
   {
     icon: FacebookIcon,
-  },
+  }, 
   {
     icon: TwitterIcon,
-  },
+  }, 
   {
     icon: InstagramIcon,
   },
@@ -153,4 +169,4 @@ export const social = [
   {
     icon: PinterestIcon,
   },
-];
+]; */

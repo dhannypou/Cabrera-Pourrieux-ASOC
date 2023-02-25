@@ -7,9 +7,9 @@ const Subscribe = () => {
         <h3 className='font-primary font-extrabold leading-[1.2] text-white text-[40px] mb-[12px]'>
         Suscríbase a nuestro boletín de noticias
         </h3>
-        <p className='mb-[40px] text-white text-sm'>
-        Sea el primero en recibir las últimas noticias sobre nosotros.
-        </p>
+        {/* <p className='mb-[40px] text-white text-sm'>
+        Sea el primero en recibir las últimas noticias sobre cambios juridicos.
+        </p> */}
         <form className='max-w-[600px] mx-auto flex flex-col lg:flex-row'>
           <input
             className='form-control mb-4'

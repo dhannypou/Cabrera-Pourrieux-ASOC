@@ -18,9 +18,9 @@ const Banner = () => {
         <div className='text-center mx-auto h-full lg:text-left px-8 md:p-0'>
           <h1 className='font-primary font-black text-4xl lg:text-4xl text-primary mb-4 lg:mt-[50px] leading-tight lg:leading-[50px]'>
               Dr. W. Hugo Cabrera<br/>
-              Dra. Veronica Pourrieux 
+              Dra. Verónica Pourrieux 
           </h1>
-          <h1 className='font-primary font-black text-6xl lg:text-7xl text-primary mb-4 lg:mt-[70px] leading-tight lg:leading-[90px]'>
+          <h1 className='font-primary font-black text-6xl lg:text-6xl text-primary mb-4 lg:mt-[70px] leading-tight lg:leading-[90px]'>
           Su problema <br /> <span className='text-accent'>Nuestro objetivo.</span>
           </h1>
           <p className='max-w-sm mx-auto mb-[50px] lg:mx-0 lg:max-w-[540px]'>
