@@ -1,0 +1,26 @@
+.slider-container {
+	margin: 0 auto;
+	overflow-x: hidden;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.slider {
+	display: flex;
+	cursor: grab;
+	border: 3px solid black;
+	/* border-radius: 41px; */
+}
+
+.item {
+	height: 300px;
+	max-width: 400px;
+	padding: 10px;
+}
+
+.item img {
+	height: 100%;
+	width: 100%;
+	pointer-events: none;
+	border-radius: 41px;
+}
